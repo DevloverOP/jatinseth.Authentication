@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 300px;
+  height: auto;
+  margin: 20px auto;
+  padding: 10px;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0px 0px 3px 1px grey;
+}
+
+form div {
+  width: 100%;
+  margin: 5px auto;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1em;
+}
+input {
+  padding: 5px;
+}
+.home{
+margin: 50px;
+}
+.home h1{
+  padding: 10px;
+  border-radius: 20px;
+  width: fit-content;
+  animation: blink 1s infinite alternate;
+}
+
+@keyframes blink {
+  0%{color: yellow;
+    background-color: red;
+  }
+  100%{
+    color:blue;
+    background-color:yellow;
+  }
+}
+
+
+
+#logout{
+  margin: 20px;
+  padding: 2px;
+  font-size: 20px;  
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+     <%- include("../partials/head.ejs"); %>
+     <title>Login</title>
+    </head>
+  <body>
+    
+   <form  id="loginform">
+       <h1>LoGin</h1>
+      <div>
+        <label for="lemail">ID</label>
+        <input type="email" name="email" id="lemail" />
+      </div>
+      <div>
+        <label for="lpassword">Password</label>
+        <input type="password" name="password" id="lpassword" />
+      </div>
+      <div>
+        <input type="submit"  id="logsubmit" />
+      </div>
+      <a href="/">New User?</a>
+    </form>
+  </body>
+  <script src="../public/JS/login.js"></script>
+
+</html>
