@@ -12,11 +12,11 @@ const options = {
   clearExpired: true
 };
 
-const mystore = new store(options);
 
+const mystore = new store(options);
 const app = express();
-const port = process.env.port || 8000;
-//console.log(path.join(__dirname, "views"));
+const port = process.env.port || 8000
+
 app.use(
   session({
     secret: "thisisrandom",
